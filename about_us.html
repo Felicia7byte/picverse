@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picserve</title>
+    <!-- link to css -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo_with_slogan.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="submission.html">Submission</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="about_us.html" class="home-active">About Us</a></li>
+        </ul>
+     </header>
+     <div class="sub-header">
+        <h1>About Us</h1>
+     </div>
+
+     <!---------- ABOUT US CONTENT ---------->
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Vision</h1>
+                <p>To be the best place where digital artists and art lovers from around the world come together to share, connect, and grow creatively.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/aboutus2.jpg" alt="About Us Image">
+            </div>
+        </div>
+        <div class="row about-col2">
+            <div class="about-col">
+                <img src="images/aboutus3.jpg" alt="New Image">
+            </div>
+            <div class="about-col">
+                <h1>Mission</h1>
+                <p>To create an easy-to-use and welcoming website where artists can show their work, meet others, get support, and build their artistic journey and where anyone who loves art can discover, enjoy, and support creativity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------- FOOTER ---------->
+    <section class="footer">
+    <h1>Contact Us</h1>
+    <p>You can contact our team with these social media</p>
+    <div class="icons">
+        <div class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <a href="https://www.instagram.com/Picverse" target="_blank">
+                <span><i class="ri-instagram-line"></i></span>
+            </a>
+        </div>
+        <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <a href="https://www.facebook.com/Picverse" target="_blank">
+            <span><i class="ri-facebook-box-fill"></i></span>
+            </a>
+        </div>
+        <div class="icon x">
+            <div class="tooltip">Twitter</div>
+            <a href="https://twitter.com/Picverse" target="_blank">
+            <span><i class="ri-twitter-x-line"></i></span>
+            </a>
+        </div>
+    </div>
+    <p>Copyright &copy; <span id="year"></span> Picverse. All right reserved.</p>
+    </section>
+       
+    <!---------- SWIPER JS ---------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- link to js -->
+    <script src="./script.js"></script>
+</body>
+</html>
